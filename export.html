@@ -1,0 +1,4646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "8092bd810cca48cfad092595fdf18d55": {
+      "model_name": "LeafletZoomControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "options": [
+          "position",
+          "zoom_in_text",
+          "zoom_in_title",
+          "zoom_out_text",
+          "zoom_out_title"
+        ]
+      }
+    },
+    "aedde488f4fc4bb88d9f1e8ed8850a37": {
+      "model_name": "LeafletAttributionControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "options": [
+          "position",
+          "prefix"
+        ],
+        "position": "bottomright"
+      }
+    },
+    "6a26c5f92b514ff6a15e50f6ec2918aa": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {}
+    },
+    "51c4486ca9134bc0b98dae265b1b1f0d": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "cursor": "move"
+      }
+    },
+    "d2f04ae0d822485d81e05f5a93e0156f": {
+      "model_name": "LeafletTileLayerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "base": true,
+        "max_zoom": 19,
+        "min_zoom": 1,
+        "options": [
+          "attribution",
+          "detect_retina",
+          "max_native_zoom",
+          "max_zoom",
+          "min_native_zoom",
+          "min_zoom",
+          "no_wrap",
+          "tile_size"
+        ]
+      }
+    },
+    "006b21d5bb6e42ffa0dcf002aca30a3b": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "52904a5179e047cb8ab5dae696001ad5": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {}
+    },
+    "5f502e1211f34a7ca6805e2da42d81a8": {
+      "model_name": "LeafletMapModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "_dom_classes": [],
+        "basemap": {
+          "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          "max_zoom": 19,
+          "attribution": "Map data (c) <a href=\"https://openstreetmap.org\">OpenStreetMap</a> contributors"
+        },
+        "center": [
+          33.9754721,
+          -118.4286756
+        ],
+        "close_popup_on_click": false,
+        "controls": [
+          "IPY_MODEL_8092bd810cca48cfad092595fdf18d55",
+          "IPY_MODEL_aedde488f4fc4bb88d9f1e8ed8850a37",
+          "IPY_MODEL_ea01e586951140fbbbebb210e3f39e8b",
+          "IPY_MODEL_9ad64a992ca34158b31d1ce40c42bfb1"
+        ],
+        "default_style": "IPY_MODEL_6a26c5f92b514ff6a15e50f6ec2918aa",
+        "dragging_style": "IPY_MODEL_51c4486ca9134bc0b98dae265b1b1f0d",
+        "layers": [
+          "IPY_MODEL_d2f04ae0d822485d81e05f5a93e0156f",
+          "IPY_MODEL_4b389db39b9a4187bb998a71d292cfea",
+          "IPY_MODEL_e8900368c17b4f86a73eec39a8a2ea9d",
+          "IPY_MODEL_d5383069be9e4f729e6c71823d9b6b3e",
+          "IPY_MODEL_486435b641ca498bac85b53a8e21b06f",
+          "IPY_MODEL_691d8f199c654fd0b74309c020829823",
+          "IPY_MODEL_1c2e775e482b40b8b1026184c16de072",
+          "IPY_MODEL_a12e9f040e26404f81ef904e0e574bbd"
+        ],
+        "layout": "IPY_MODEL_006b21d5bb6e42ffa0dcf002aca30a3b",
+        "options": [
+          "basemap",
+          "bounce_at_zoom_limits",
+          "box_zoom",
+          "center",
+          "close_popup_on_click",
+          "double_click_zoom",
+          "dragging",
+          "fullscreen",
+          "inertia",
+          "inertia_deceleration",
+          "inertia_max_speed",
+          "interpolation",
+          "keyboard",
+          "keyboard_pan_offset",
+          "keyboard_zoom_offset",
+          "max_zoom",
+          "min_zoom",
+          "scroll_wheel_zoom",
+          "tap",
+          "tap_tolerance",
+          "touch_zoom",
+          "world_copy_jump",
+          "zoom",
+          "zoom_animation_threshold",
+          "zoom_start"
+        ],
+        "style": "IPY_MODEL_52904a5179e047cb8ab5dae696001ad5",
+        "zoom": 13
+      }
+    },
+    "ea01e586951140fbbbebb210e3f39e8b": {
+      "model_name": "LeafletFullScreenControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "options": [
+          "position"
+        ]
+      }
+    },
+    "4b389db39b9a4187bb998a71d292cfea": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9754721,
+          -118.4286756
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_b9485f1e2a6b4068a74fcc9b18c6b32d"
+      }
+    },
+    "e8900368c17b4f86a73eec39a8a2ea9d": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "black",
+        "location": [
+          33.9754721,
+          -118.4286756
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ]
+      }
+    },
+    "be2981c211944bfe8bd1382e42671a1d": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "08b9fbb86470487180b206793080c046": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "b9485f1e2a6b4068a74fcc9b18c6b32d": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_be2981c211944bfe8bd1382e42671a1d",
+        "style": "IPY_MODEL_08b9fbb86470487180b206793080c046",
+        "value": "Your location"
+      }
+    },
+    "d5383069be9e4f729e6c71823d9b6b3e": {
+      "model_name": "LeafletPopupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "auto_pan_padding": [
+          5,
+          5
+        ],
+        "auto_pan_padding_bottom_right": [],
+        "auto_pan_padding_top_left": [],
+        "child": "IPY_MODEL_b9485f1e2a6b4068a74fcc9b18c6b32d",
+        "location": [
+          33.9754721,
+          -118.4286756
+        ],
+        "options": [
+          "auto_close",
+          "auto_pan",
+          "auto_pan_padding",
+          "auto_pan_padding_bottom_right",
+          "auto_pan_padding_top_left",
+          "class_name",
+          "close_button",
+          "close_on_escape_key",
+          "keep_in_view",
+          "max_height",
+          "max_width",
+          "min_width"
+        ]
+      }
+    },
+    "486435b641ca498bac85b53a8e21b06f": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "layers": [
+          "IPY_MODEL_9cdc7201771f403d8af8fb10d97ea2d9",
+          "IPY_MODEL_6a822f0a34c3455fbf47324ecf3f7162",
+          "IPY_MODEL_70766c21fb954a93859b40f85cfb59da",
+          "IPY_MODEL_27e0822e710145b3b411acf751d3c478",
+          "IPY_MODEL_0d45f11de03f439f9db10074ef9e09dd",
+          "IPY_MODEL_72b583d51e5147e88a549ccce64e401a",
+          "IPY_MODEL_7c4e8d323db94ae98c703f65ed402c59",
+          "IPY_MODEL_6575a524ac7541e181226b395c7ede1b",
+          "IPY_MODEL_854029f386e649259a3931f0fb86ca72",
+          "IPY_MODEL_19b719273549445191809b57f44fe79a",
+          "IPY_MODEL_20d2c230a46142a09c639aa961bb0392",
+          "IPY_MODEL_f8667b2017834e4e8450ae6c8ebe85f8",
+          "IPY_MODEL_49d10cf8bf0f41cea4f8494714134e62",
+          "IPY_MODEL_5beaa1fb0d614581af72f99fbfdce1c3",
+          "IPY_MODEL_88317dbc16d24f82b88c03ae150f0887",
+          "IPY_MODEL_8d6cae0287204e9dae4e344c19f8beae",
+          "IPY_MODEL_5f3a71d7685147d2b74b30148536f9c0",
+          "IPY_MODEL_b6609627114a48faa5a90758ecd6c5f1",
+          "IPY_MODEL_025ba6face194d6db7abd3ecd904e9be",
+          "IPY_MODEL_15d8937ebe34417ab030f4411b764254",
+          "IPY_MODEL_bad13b05fd70450cad9905086572cd89",
+          "IPY_MODEL_97fd39b39c5d4bb7afbd0522bf676e01",
+          "IPY_MODEL_c17415fb9ee54e028e3f8e10245620b9",
+          "IPY_MODEL_76097c7ae63d4e878683308c71eccdbe",
+          "IPY_MODEL_8f825e10850d43cbb5186caa59dfcdda",
+          "IPY_MODEL_98d7715f1d0c4e8598f0140cd1e3016e",
+          "IPY_MODEL_bcd480382a6e42afa2e06433abb3471c",
+          "IPY_MODEL_336bd0f5adfb403cb4553d13c8851c79",
+          "IPY_MODEL_6ded8e709f764f59bdfa3ec14a464e72",
+          "IPY_MODEL_d170a55a11b341a88490546c478fdc5a"
+        ],
+        "name": "cluster 0",
+        "options": []
+      }
+    },
+    "691d8f199c654fd0b74309c020829823": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "layers": [
+          "IPY_MODEL_964ea72f519747748dd62743bd0ff3a9",
+          "IPY_MODEL_50c84f673fd445a9a8ce50ffbd0ed27d",
+          "IPY_MODEL_82a0c3bcabeb484a865dfa60a9b15c27",
+          "IPY_MODEL_6bb97dd2c1be41ba88a07526fd402449",
+          "IPY_MODEL_e523ba88eaf3434f85241d4e51b3388b",
+          "IPY_MODEL_071ea09dddbc4f71bc004c53cfb4815e",
+          "IPY_MODEL_fd3af942ddd84494a2ed1a6d75ca93cd",
+          "IPY_MODEL_20a2af4ac719401da85927ed34431fcf",
+          "IPY_MODEL_dcfadde0dbad42e7a5822d6ca075bca0",
+          "IPY_MODEL_407516e4ca9f4a4eafab5f00ed4d81d6",
+          "IPY_MODEL_8c82f9979f57410e9552b455648d3bd8",
+          "IPY_MODEL_78b32d01490b472fbcb196e74e947f29",
+          "IPY_MODEL_a2a6d1c95bf44fc38e4368a3ad7bf209",
+          "IPY_MODEL_12dc5b00c2c74c5b8e72008a6af3ebdb",
+          "IPY_MODEL_10e092a152d9419ba71117903de5c7e1",
+          "IPY_MODEL_16a84c6ac5ce4491b49753f6cc031021",
+          "IPY_MODEL_41f1056a0b074583b0262f15a41c737d",
+          "IPY_MODEL_1766769d91364c2e870cfda0abcad56b",
+          "IPY_MODEL_0525fef4ff174e80bcfbfe65eb69f1d6",
+          "IPY_MODEL_3f55e533e47e45c8ad33952f749bbeff",
+          "IPY_MODEL_006173364cf944c8add5415e915a9d8f",
+          "IPY_MODEL_99eeaca7e26441238f8c24b48a85d684",
+          "IPY_MODEL_d52f383238af41fb90be1953620409f9",
+          "IPY_MODEL_92597ed41fcc4a5c86274ce91146fc20",
+          "IPY_MODEL_72962e2244b14732b2ceac99ded9ca73",
+          "IPY_MODEL_5a19ae4327ec42f4a34d6f9f466613c6",
+          "IPY_MODEL_2adf4e7ae89c4425b4960f009bacbb8e",
+          "IPY_MODEL_74e1815200ce4d708ba21742c534f8df",
+          "IPY_MODEL_8d581c3e177d479ba0a745d274bb7df4",
+          "IPY_MODEL_d0925fb468954073ac6c4762dd2ac6e0",
+          "IPY_MODEL_08c2e21ea8634357abcf6331897055d0",
+          "IPY_MODEL_038f8a09a8054d5184fd6739b22b43bc",
+          "IPY_MODEL_27e8227103d44e6abec27d97f8cb9d25",
+          "IPY_MODEL_7c789be585664cb5b8a9b606cc79170f"
+        ],
+        "name": "cluster 1",
+        "options": []
+      }
+    },
+    "1c2e775e482b40b8b1026184c16de072": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "layers": [
+          "IPY_MODEL_81a4fee12a0d481cb5c0c7807d9a12b3",
+          "IPY_MODEL_f6372961bfd04770a706ab6e3ef2cde3",
+          "IPY_MODEL_8aa6290083c541b3be0b513667f9c308",
+          "IPY_MODEL_a3cc608bda734072a24dd4437a706974",
+          "IPY_MODEL_8763a3b570b047139960e6049fc12848",
+          "IPY_MODEL_b8360e4bd8854384849493ce254367aa",
+          "IPY_MODEL_63e67716aa564e9c8e580a96731f4847",
+          "IPY_MODEL_5d072d57e0ef498182f1b9f7a3c34be1",
+          "IPY_MODEL_15b9365ff80440de8f8c31412f8f40ff",
+          "IPY_MODEL_e360e9d87c7a48b08666775f8f5d20b9",
+          "IPY_MODEL_5cc8f19e8ae9491db7efe42faa33cf05",
+          "IPY_MODEL_caf63667aca844ad8043b802cf66650c",
+          "IPY_MODEL_e10f695c18d649a39ec32f704062bd85",
+          "IPY_MODEL_969782921ffc4d269c1d2140fd4fd5a4",
+          "IPY_MODEL_471c63b9282b45e0b2a7ec0ced3983a8",
+          "IPY_MODEL_7886c66251ef4f488e38c0578d45ee66",
+          "IPY_MODEL_011b5c17e1844fe38078e2873d187692",
+          "IPY_MODEL_6f47aa4bad9843e49ca9ad87b1fd23f8",
+          "IPY_MODEL_70baa95ce466405bad13e5975626930a",
+          "IPY_MODEL_1539fc38253949928af0dc075ef229ab",
+          "IPY_MODEL_9c6950a453a549b099feaa5e6cfce63c",
+          "IPY_MODEL_372555e41b1c4c0c85ad265fb4aaa642",
+          "IPY_MODEL_e8e0fa3b923f441aa91645e313d76da0",
+          "IPY_MODEL_49dbc5db82804a91bff6c311bd3cb73e",
+          "IPY_MODEL_47999a02248b48ceb5de2d73ad2fb9f2",
+          "IPY_MODEL_e9a014be41e649a6b55888e7d76939a4"
+        ],
+        "name": "cluster 2",
+        "options": []
+      }
+    },
+    "a12e9f040e26404f81ef904e0e574bbd": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "layers": [
+          "IPY_MODEL_52c44f8714684441bdc959f19ed565ec",
+          "IPY_MODEL_eca53028b8ef432ab055feefbdd10671",
+          "IPY_MODEL_3c2ab7ff2a864d6ea80c34561f45d0ca",
+          "IPY_MODEL_f5388d54cb8a47f0aec3f574aa8c04f1",
+          "IPY_MODEL_f7a219338d9e422aa111aca6bb654c8f",
+          "IPY_MODEL_2f3f9c24ef4f4d0ab4ba4f8bdb68c1a5",
+          "IPY_MODEL_71b55e85312e438eb0387f008eebf733",
+          "IPY_MODEL_3dbfd36b107a44feac32c8478e965acf",
+          "IPY_MODEL_88d8556279214217a4896e7e0b4c6470",
+          "IPY_MODEL_b0317e91f015444fb69a105a3cd552b3",
+          "IPY_MODEL_03eca678d52e47ee88b4bd0a772c5732",
+          "IPY_MODEL_3b574bcaebb74e63ac5419b6b94690a3",
+          "IPY_MODEL_487d91648291487a806d826438172094",
+          "IPY_MODEL_7ecd3d9204884e56b5023617e7a18603",
+          "IPY_MODEL_05a54447c80f4dbeb7585fc1562286c0",
+          "IPY_MODEL_123a7a2f7c114bb7b827323a946129f7",
+          "IPY_MODEL_55c60edbea834943bfa1e444aa18f489",
+          "IPY_MODEL_6ee7715d8e054806b7fd0fe7f310c49e",
+          "IPY_MODEL_62e3d8d82de74d2eb554c9fa94c34433",
+          "IPY_MODEL_4a06a451642240a7bb117c1fb9973d5a",
+          "IPY_MODEL_e5f6eb2de8c2477180a4fddd86378661",
+          "IPY_MODEL_ed0f565f52bf4df6a1628650a926ecd8"
+        ],
+        "name": "cluster 3",
+        "options": []
+      }
+    },
+    "81a4fee12a0d481cb5c0c7807d9a12b3": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0284208,
+          -118.4517562
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_693b5010ac0d4af5a815fd380347bb2a",
+        "popup_max_width": 425
+      }
+    },
+    "f6372961bfd04770a706ab6e3ef2cde3": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0284208,
+          -118.4517562
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "242ebd8b5da843fab0fa2e80db0fe0b4": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "f913702cf11843aa99ef03083e328945": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "693b5010ac0d4af5a815fd380347bb2a": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_242ebd8b5da843fab0fa2e80db0fe0b4",
+        "style": "IPY_MODEL_f913702cf11843aa99ef03083e328945",
+        "value": "Name: Shunji Japanese Cuisine<br>Address: 12244 W Pico Blvd, Los Angeles, CA, 90064<br>Phone: (310) 826-4737<br>Google rating: 4.7; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$$"
+      }
+    },
+    "9cdc7201771f403d8af8fb10d97ea2d9": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0418506,
+          -118.4610863
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_b580e308927d4a2ea17be740aff0cbb2",
+        "popup_max_width": 425
+      }
+    },
+    "6a822f0a34c3455fbf47324ecf3f7162": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0418506,
+          -118.4610863
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "4df31b963e7b4067be7d9b3b135f8c06": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "aa8dadb31e9e42d6b79d1cc11c89c3de": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "b580e308927d4a2ea17be740aff0cbb2": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_4df31b963e7b4067be7d9b3b135f8c06",
+        "style": "IPY_MODEL_aa8dadb31e9e42d6b79d1cc11c89c3de",
+        "value": "Name: Tokyo Fast Food<br>Address: 11921 Santa Monica Blvd, Los Angeles, CA, 90025<br>Phone: (310) 478-3603<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "964ea72f519747748dd62743bd0ff3a9": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0763384,
+          -118.3727269
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_bbd509b2f72f409482aa8e72ec8f74b6",
+        "popup_max_width": 425
+      }
+    },
+    "50c84f673fd445a9a8ce50ffbd0ed27d": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0763384,
+          -118.3727269
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "32773ae9adf443f28fd82d5394b092aa": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "01a972f367d345da8273ac9717019ad4": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "bbd509b2f72f409482aa8e72ec8f74b6": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_32773ae9adf443f28fd82d5394b092aa",
+        "style": "IPY_MODEL_01a972f367d345da8273ac9717019ad4",
+        "value": "Name: Matsumoto<br>Address: 8385 Beverly Blvd, Los Angeles, CA, 90048<br>Phone: (323) 653-0470<br>Google rating: 4.7; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$$"
+      }
+    },
+    "70766c21fb954a93859b40f85cfb59da": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0452681,
+          -118.3088828
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_4744ee80864642bb854f31cf0a891fac",
+        "popup_max_width": 425
+      }
+    },
+    "27e0822e710145b3b411acf751d3c478": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0452681,
+          -118.3088828
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "df06c1be580a4cc78d9a35a211826fae": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "1ffb844b09b44b6ba0bfe78f34cb43b9": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "4744ee80864642bb854f31cf0a891fac": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_df06c1be580a4cc78d9a35a211826fae",
+        "style": "IPY_MODEL_1ffb844b09b44b6ba0bfe78f34cb43b9",
+        "value": "Name: Bento Man<br>Address: 1500 S Western Ave, Los Angeles, CA, 90006<br>Phone: (323) 733-5316<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "82a0c3bcabeb484a865dfa60a9b15c27": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0719336,
+          -118.3655747
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_29381c4c9ca3405eb5ba873c593dad03",
+        "popup_max_width": 425
+      }
+    },
+    "6bb97dd2c1be41ba88a07526fd402449": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0719336,
+          -118.3655747
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "f2998efe5e0644439a446a2a2430f51e": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "1a1f854927f14c4e83632b1c382b69a2": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "29381c4c9ca3405eb5ba873c593dad03": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_f2998efe5e0644439a446a2a2430f51e",
+        "style": "IPY_MODEL_1a1f854927f14c4e83632b1c382b69a2",
+        "value": "Name: Robata JINYA<br>Address: 8050 W 3rd St, Los Angeles, CA, 90048<br>Phone: (323) 653-8877<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "e523ba88eaf3434f85241d4e51b3388b": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9025653,
+          -118.3181832
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_33cb45484c7e41d49de1ca7a8849ea89",
+        "popup_max_width": 425
+      }
+    },
+    "071ea09dddbc4f71bc004c53cfb4815e": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          33.9025653,
+          -118.3181832
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "c7222dbafeb749deb06dd91f830a2ef1": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "33d688dc5a5d4a5187f6856b5101d9d2": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "33cb45484c7e41d49de1ca7a8849ea89": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_c7222dbafeb749deb06dd91f830a2ef1",
+        "style": "IPY_MODEL_33d688dc5a5d4a5187f6856b5101d9d2",
+        "value": "Name: Sushi Yoko<br>Address: 2217 Rosecrans Ave #5, Gardena, CA, 90249<br>Phone: (310) 380-6757<br>Google rating: 4.8; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "8aa6290083c541b3be0b513667f9c308": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9577894,
+          -118.3958782
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_deadeac3b03f47b4852e0e36fb2218ce",
+        "popup_max_width": 425
+      }
+    },
+    "a3cc608bda734072a24dd4437a706974": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          33.9577894,
+          -118.3958782
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "56ba2c9267d84f2fb86e395564b60274": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e2fe687460774abc9268a9bfb9723dd8": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "deadeac3b03f47b4852e0e36fb2218ce": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_56ba2c9267d84f2fb86e395564b60274",
+        "style": "IPY_MODEL_e2fe687460774abc9268a9bfb9723dd8",
+        "value": "Name: KANPAI JAPANESE SUSHI BAR & GRILL<br>Address: 8736 S Sepulveda Blvd C, Los Angeles, CA, 90045<br>Phone: (310) 670-0533<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "fd3af942ddd84494a2ed1a6d75ca93cd": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0621327,
+          -118.3482005
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_7703e1809aa34272b9f4ce5a3e64ae3c",
+        "popup_max_width": 425
+      }
+    },
+    "20a2af4ac719401da85927ed34431fcf": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0621327,
+          -118.3482005
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "c3398e5e7b644578b883e24ab62da84a": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "5570fa325ccf4b7a91325f917b6d7989": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "7703e1809aa34272b9f4ce5a3e64ae3c": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_c3398e5e7b644578b883e24ab62da84a",
+        "style": "IPY_MODEL_5570fa325ccf4b7a91325f917b6d7989",
+        "value": "Name: Yuko Kitchen<br>Address: 5484 Wilshire Blvd, Los Angeles, CA, 90036<br>Phone: (323) 933-4020<br>Google rating: 4.6; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "8763a3b570b047139960e6049fc12848": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9210263,
+          -118.4161138
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_382790328c1545d0aa00f5562e579a7d",
+        "popup_max_width": 425
+      }
+    },
+    "b8360e4bd8854384849493ce254367aa": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          33.9210263,
+          -118.4161138
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "6a1be19f7d9d44e79976984b254f770f": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "8ded2792068148438731ac562d8dd257": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "382790328c1545d0aa00f5562e579a7d": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_6a1be19f7d9d44e79976984b254f770f",
+        "style": "IPY_MODEL_8ded2792068148438731ac562d8dd257",
+        "value": "Name: Kagura<br>Address: 403 Main St, El Segundo, CA, 90245<br>Phone: (310) 333-0689<br>Google rating: 4.4; Yelp rating: 4.5<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "52c44f8714684441bdc959f19ed565ec": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0050576,
+          -118.4334399
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_7ee00364723b43b6a11d55ccc10aa77f",
+        "popup_max_width": 425
+      }
+    },
+    "eca53028b8ef432ab055feefbdd10671": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          34.0050576,
+          -118.4334399
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "0590f63c33fd40ee9db026534285997d": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "8665398361e340079ef3adf75afc1d85": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "7ee00364723b43b6a11d55ccc10aa77f": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_0590f63c33fd40ee9db026534285997d",
+        "style": "IPY_MODEL_8665398361e340079ef3adf75afc1d85",
+        "value": "Name: Mitsuwa Marketplace - Santa Monica<br>Address: 3760 S Centinela Ave, Los Angeles, CA, 90066<br>Phone: (310) 398-2113<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "63e67716aa564e9c8e580a96731f4847": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.992204,
+          -118.4435615
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_a04c896e77fb4297b9ecf5dc9e4c05ad",
+        "popup_max_width": 425
+      }
+    },
+    "5d072d57e0ef498182f1b9f7a3c34be1": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          33.992204,
+          -118.4435615
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "58b284c2ab014d7f9512ba33eec01c34": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "35bed9169a8745f0ae573a327c725bd5": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "a04c896e77fb4297b9ecf5dc9e4c05ad": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_58b284c2ab014d7f9512ba33eec01c34",
+        "style": "IPY_MODEL_35bed9169a8745f0ae573a327c725bd5",
+        "value": "Name: Fresh In The Box<br>Address: 13354 Washington Blvd, Los Angeles, CA, 90066<br>Phone: (310) 301-9100<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "dcfadde0dbad42e7a5822d6ca075bca0": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0624413,
+          -118.308578
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_04c044e958b4400681f61c37800a2ebe",
+        "popup_max_width": 425
+      }
+    },
+    "407516e4ca9f4a4eafab5f00ed4d81d6": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0624413,
+          -118.308578
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "01443d9ffe1e4e959d69f9f5b90f060d": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "9570cf0497604c2eac6342be216ec917": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "04c044e958b4400681f61c37800a2ebe": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_01443d9ffe1e4e959d69f9f5b90f060d",
+        "style": "IPY_MODEL_9570cf0497604c2eac6342be216ec917",
+        "value": "Name: Kashira Sushi<br>Address: 3785 Wilshire Blvd Ste C107, Los Angeles, CA, 90010<br>Phone: (213) 388-1620<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "3c2ab7ff2a864d6ea80c34561f45d0ca": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0610395,
+          -118.4474114
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_31a12f31254b43f0a70464972282a41e",
+        "popup_max_width": 425
+      }
+    },
+    "f5388d54cb8a47f0aec3f574aa8c04f1": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          34.0610395,
+          -118.4474114
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "e95f2d321c1b48b78ff84cac8e3a470a": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "6e26b6053497427b84502bcc9091b7fd": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "31a12f31254b43f0a70464972282a41e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_e95f2d321c1b48b78ff84cac8e3a470a",
+        "style": "IPY_MODEL_6e26b6053497427b84502bcc9091b7fd",
+        "value": "Name: Kaido<br>Address: 1049 Gayley Ave, Los Angeles, CA, 90024<br>Phone: (310) 828-7582<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "8c82f9979f57410e9552b455648d3bd8": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.8842969,
+          -118.3094564
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_5af93af8907446d1aaf17fcb2152b3a6",
+        "popup_max_width": 425
+      }
+    },
+    "78b32d01490b472fbcb196e74e947f29": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          33.8842969,
+          -118.3094564
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "cbeb33f50949479797ae7bcc3af0f639": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "f0edd087e6d2488fa8381700c0ac7a88": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "5af93af8907446d1aaf17fcb2152b3a6": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_cbeb33f50949479797ae7bcc3af0f639",
+        "style": "IPY_MODEL_f0edd087e6d2488fa8381700c0ac7a88",
+        "value": "Name: Azuma Japanese Restaurant<br>Address: 16123 S Western Ave, Gardena, CA, 90247<br>Phone: (310) 532-8623<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "0d45f11de03f439f9db10074ef9e09dd": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.8889149,
+          -118.3087624
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_b57d5ee70ae041d5a2c4cf3e0a185f1c",
+        "popup_max_width": 425
+      }
+    },
+    "72b583d51e5147e88a549ccce64e401a": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.8889149,
+          -118.3087624
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "a4db7bb9680843c38adaa926ef9a6f98": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "a6638866fb4a4031a6141fd7e84ab20a": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "b57d5ee70ae041d5a2c4cf3e0a185f1c": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_a4db7bb9680843c38adaa926ef9a6f98",
+        "style": "IPY_MODEL_a6638866fb4a4031a6141fd7e84ab20a",
+        "value": "Name: Kotohira Restaurant<br>Address: 1747 W Redondo Beach Blvd, Gardena, CA, 90247<br>Phone: (310) 323-3966<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "15b9365ff80440de8f8c31412f8f40ff": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0251396,
+          -118.4122256
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_7fdc2ffe540547fa8af4a61d56ba43a5",
+        "popup_max_width": 425
+      }
+    },
+    "e360e9d87c7a48b08666775f8f5d20b9": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0251396,
+          -118.4122256
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "8f4b15f3bc2e4a3a85bac9a64d380564": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "ca3716fe40fa498a9551511dfb2e1e2a": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "7fdc2ffe540547fa8af4a61d56ba43a5": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_8f4b15f3bc2e4a3a85bac9a64d380564",
+        "style": "IPY_MODEL_ca3716fe40fa498a9551511dfb2e1e2a",
+        "value": "Name: n/naka<br>Address: 3455 Overland Ave, Los Angeles, CA, 90034<br>Phone: None<br>Google rating: 4.7; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$$"
+      }
+    },
+    "5cc8f19e8ae9491db7efe42faa33cf05": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0675996,
+          -118.4090648
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_78122d28351045ca94b267893b06d7bb",
+        "popup_max_width": 425
+      }
+    },
+    "caf63667aca844ad8043b802cf66650c": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0675996,
+          -118.4090648
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "6654ea3a072d429ebbea5ef769fee1fa": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e031a5d3637a4c848f5948cb59902424": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "78122d28351045ca94b267893b06d7bb": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_6654ea3a072d429ebbea5ef769fee1fa",
+        "style": "IPY_MODEL_e031a5d3637a4c848f5948cb59902424",
+        "value": "Name: Tempura Endo<br>Address: 9777 S Santa Monica Blvd, Beverly Hills, CA, 90210<br>Phone: (310) 274-2201<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$$"
+      }
+    },
+    "f7a219338d9e422aa111aca6bb654c8f": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9844791,
+          -118.4391498
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_4a55abd2e7044aaa9990d3f00dd1764e",
+        "popup_max_width": 425
+      }
+    },
+    "2f3f9c24ef4f4d0ab4ba4f8bdb68c1a5": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9844791,
+          -118.4391498
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "455cea5a3f744fe59d459d0bd66eae6b": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "133b8228174b4add8fb15ce7ab4614e0": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "4a55abd2e7044aaa9990d3f00dd1764e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_455cea5a3f744fe59d459d0bd66eae6b",
+        "style": "IPY_MODEL_133b8228174b4add8fb15ce7ab4614e0",
+        "value": "Name: Irori Sushi<br>Address: 4371 Glencoe Ave Suite B4, Marina Del Rey, CA, 90292<br>Phone: (310) 822-3700<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "e10f695c18d649a39ec32f704062bd85": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.961972,
+          -118.4214507
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_f1430ef1abe1405dbe70064a5c08d4c5",
+        "popup_max_width": 425
+      }
+    },
+    "969782921ffc4d269c1d2140fd4fd5a4": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          33.961972,
+          -118.4214507
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "d5b6ddbab4644788ab82994a6339c3e6": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "69637b19ea5a4f19b58d3cb7c9bf535c": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "f1430ef1abe1405dbe70064a5c08d4c5": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_d5b6ddbab4644788ab82994a6339c3e6",
+        "style": "IPY_MODEL_69637b19ea5a4f19b58d3cb7c9bf535c",
+        "value": "Name: Kanpai<br>Address: 8325 Lincoln Blvd, Los Angeles, CA, 90045<br>Phone: (310) 338-7223<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "a2a6d1c95bf44fc38e4368a3ad7bf209": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0691692,
+          -118.376627
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_e4b587da58484625bb624ab4e4819547",
+        "popup_max_width": 425
+      }
+    },
+    "12dc5b00c2c74c5b8e72008a6af3ebdb": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0691692,
+          -118.376627
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "b618745558e44b56be41a9b61f168ab9": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "c12401d3a4f34743bf2dc91d28d94d72": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "e4b587da58484625bb624ab4e4819547": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_b618745558e44b56be41a9b61f168ab9",
+        "style": "IPY_MODEL_c12401d3a4f34743bf2dc91d28d94d72",
+        "value": "Name: Gyu-Kaku Japanese BBQ<br>Address: 163 N La Cienega Blvd, Beverly Hills, CA, 90211<br>Phone: (310) 659-5760<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $$"
+      }
+    },
+    "7c4e8d323db94ae98c703f65ed402c59": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9785725,
+          -118.39291
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_4d5db08db72c4eb0bc28aee501ef8c78",
+        "popup_max_width": 425
+      }
+    },
+    "6575a524ac7541e181226b395c7ede1b": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.9785725,
+          -118.39291
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "fac553708ec148148dad1ca8caa93caa": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "05ab97e8db5b4cca837e054e59e87118": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "4d5db08db72c4eb0bc28aee501ef8c78": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_fac553708ec148148dad1ca8caa93caa",
+        "style": "IPY_MODEL_05ab97e8db5b4cca837e054e59e87118",
+        "value": "Name: Kabuki<br>Address: 6081 Center Dr #203, Los Angeles, CA, 90045<br>Phone: (310) 641-5524<br>Google rating: 4.2; Yelp rating: 3.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "854029f386e649259a3931f0fb86ca72": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0690053,
+          -118.4059692
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_b0b029b99e214d91b6c7da037558ef25",
+        "popup_max_width": 425
+      }
+    },
+    "19b719273549445191809b57f44fe79a": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0690053,
+          -118.4059692
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "f89974b0669a4735a7e7855742697ff9": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e617afdac6d8426f93463814a40a7f3a": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "b0b029b99e214d91b6c7da037558ef25": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_f89974b0669a4735a7e7855742697ff9",
+        "style": "IPY_MODEL_e617afdac6d8426f93463814a40a7f3a",
+        "value": "Name: Sayuri Japanese Restaurant<br>Address: 456 N Bedford Dr, Beverly Hills, CA, 90210<br>Phone: (310) 246-9031<br>Google rating: 4.4; Yelp rating: 3.5<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "10e092a152d9419ba71117903de5c7e1": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.045583,
+          -118.452551
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_5d970e4ea0e140b9a64cfa36edc2455e",
+        "popup_max_width": 425
+      }
+    },
+    "16a84c6ac5ce4491b49753f6cc031021": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.045583,
+          -118.452551
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "3d280cb9bc294712930d790654f9f3a3": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "6cfd254d125c4ffe853686dbd6fe0f39": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "5d970e4ea0e140b9a64cfa36edc2455e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_3d280cb9bc294712930d790654f9f3a3",
+        "style": "IPY_MODEL_6cfd254d125c4ffe853686dbd6fe0f39",
+        "value": "Name: Aki Restaurant<br>Address: 11513 CA-2, Los Angeles, CA, 90025<br>Phone: (310) 479-8406<br>Google rating: 4.7; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $$"
+      }
+    },
+    "41f1056a0b074583b0262f15a41c737d": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0710026,
+          -118.4008605
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_a0e0b4624f994be5b5b9cf2a93b93a61",
+        "popup_max_width": 425
+      }
+    },
+    "1766769d91364c2e870cfda0abcad56b": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0710026,
+          -118.4008605
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "065cb30b3b3e45d4956f85f771a12527": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "a1032b8066a249cbbde98774687560ac": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "a0e0b4624f994be5b5b9cf2a93b93a61": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_065cb30b3b3e45d4956f85f771a12527",
+        "style": "IPY_MODEL_a1032b8066a249cbbde98774687560ac",
+        "value": "Name: Shiki Beverly Hills<br>Address: 410 N Canon Dr, Beverly Hills, CA, 90210<br>Phone: (310) 888-0036<br>Google rating: 4.6; Yelp rating: 4.5<br>Google says: Meh.<br>Yelp says: Yay!<br>Price level: $$$$"
+      }
+    },
+    "20d2c230a46142a09c639aa961bb0392": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0593505,
+          -118.4449146
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_c6823899f955485296193ab79ea48e79",
+        "popup_max_width": 425
+      }
+    },
+    "f8667b2017834e4e8450ae6c8ebe85f8": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0593505,
+          -118.4449146
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "a3cee9c278bb4f18bf77b3dc3145aea7": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "61d3775a5ad54b95aa4d50079cd5dcf6": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "c6823899f955485296193ab79ea48e79": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_a3cee9c278bb4f18bf77b3dc3145aea7",
+        "style": "IPY_MODEL_61d3775a5ad54b95aa4d50079cd5dcf6",
+        "value": "Name: San Sai Japanese Grill<br>Address: 10904 Lindbrook Dr, Los Angeles, CA, 90024<br>Phone: (310) 443-0610<br>Google rating: 4.3; Yelp rating: 3.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "71b55e85312e438eb0387f008eebf733": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9594364,
+          -118.4193023
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_bbd17849402e4e1fb14f9d1b50cc7f66",
+        "popup_max_width": 425
+      }
+    },
+    "3dbfd36b107a44feac32c8478e965acf": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9594364,
+          -118.4193023
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "b1ff0fb7c8e644f3a756939d2885fee1": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e09728a4803c42f2b4e67cf7f7ee9af1": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "bbd17849402e4e1fb14f9d1b50cc7f66": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_b1ff0fb7c8e644f3a756939d2885fee1",
+        "style": "IPY_MODEL_e09728a4803c42f2b4e67cf7f7ee9af1",
+        "value": "Name: San Sai Japanese Grill<br>Address: 8601 Lincoln Blvd, Los Angeles, CA, 90045<br>Phone: None<br>Google rating: 4.4; Yelp rating: 3.0<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $"
+      }
+    },
+    "49d10cf8bf0f41cea4f8494714134e62": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0194011,
+          -118.4551762
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_5c12fdfd90344816b88e2f30527a986c",
+        "popup_max_width": 425
+      }
+    },
+    "5beaa1fb0d614581af72f99fbfdce1c3": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0194011,
+          -118.4551762
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "2187b8fc912b4d539a220565174767cd": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "48a7c81b81564a4daa03116415aab897": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "5c12fdfd90344816b88e2f30527a986c": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_2187b8fc912b4d539a220565174767cd",
+        "style": "IPY_MODEL_48a7c81b81564a4daa03116415aab897",
+        "value": "Name: Miyako Restaurant<br>Address: 2829 Ocean Park Blvd, Santa Monica, CA, 90405<br>Phone: (310) 396-5588<br>Google rating: 4.4; Yelp rating: 3.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "0525fef4ff174e80bcfbfe65eb69f1d6": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0367313,
+          -118.4769948
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_36e28efa99d24b18872dff8d554d1517",
+        "popup_max_width": 425
+      }
+    },
+    "3f55e533e47e45c8ad33952f749bbeff": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0367313,
+          -118.4769948
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "5fe5790a12d14465b3da1f66a6fabc3d": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "8da9d222f2a54fddb33c77a4e7d41377": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "36e28efa99d24b18872dff8d554d1517": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_5fe5790a12d14465b3da1f66a6fabc3d",
+        "style": "IPY_MODEL_8da9d222f2a54fddb33c77a4e7d41377",
+        "value": "Name: Takuma<br>Address: 2627 Wilshire Blvd, Santa Monica, CA, 90403<br>Phone: (310) 586-7469<br>Google rating: 4.6; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "88317dbc16d24f82b88c03ae150f0887": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0541176,
+          -118.4650184
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_fd8242cb71fe48ffae3ca18b2b7510d8",
+        "popup_max_width": 425
+      }
+    },
+    "8d6cae0287204e9dae4e344c19f8beae": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0541176,
+          -118.4650184
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "41e031d4fb444e47b59260d3bceb491e": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "b03c71c5c914438ca15ae5ceda281a3e": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "fd8242cb71fe48ffae3ca18b2b7510d8": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_41e031d4fb444e47b59260d3bceb491e",
+        "style": "IPY_MODEL_b03c71c5c914438ca15ae5ceda281a3e",
+        "value": "Name: Taiko Restaurant<br>Address: 11677 San Vicente Blvd #302, Los Angeles, CA, 90049<br>Phone: (310) 207-7782<br>Google rating: 4.3; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "006173364cf944c8add5415e915a9d8f": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0731174,
+          -118.3760133
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_8349828ebff34da38bc20a8a74c771b6",
+        "popup_max_width": 425
+      }
+    },
+    "99eeaca7e26441238f8c24b48a85d684": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0731174,
+          -118.3760133
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "1179340eff414c00a6fd0046c0e53909": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "7023a7ff3b3f4cd382d9bd10f0631109": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "8349828ebff34da38bc20a8a74c771b6": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_1179340eff414c00a6fd0046c0e53909",
+        "style": "IPY_MODEL_7023a7ff3b3f4cd382d9bd10f0631109",
+        "value": "Name: Manpuku Japanese Yakiniku Dining<br>Address: 8486 W 3rd St, West Hollywood, CA, 90048<br>Phone: (323) 847-5061<br>Google rating: 4.8; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "5f3a71d7685147d2b74b30148536f9c0": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9012758,
+          -118.3735215
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_7ab9df0c06d841f58112683ef5462a7e",
+        "popup_max_width": 425
+      }
+    },
+    "b6609627114a48faa5a90758ecd6c5f1": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.9012758,
+          -118.3735215
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "1c2c92da38f947be9c49032f231f5c14": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "cfe43d85fac54f648ec04f59e0b87c62": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "7ab9df0c06d841f58112683ef5462a7e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_1c2c92da38f947be9c49032f231f5c14",
+        "style": "IPY_MODEL_cfe43d85fac54f648ec04f59e0b87c62",
+        "value": "Name: San Sai Japanese Grill<br>Address: 5354 Rosecrans Ave, Hawthorne, CA, 90250<br>Phone: (310) 643-5961<br>Google rating: 4.2; Yelp rating: 3.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "d52f383238af41fb90be1953620409f9": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.053119,
+          -118.440241
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_56a3ffaf04ee4f61b75e583e399d8ef4",
+        "popup_max_width": 425
+      }
+    },
+    "92597ed41fcc4a5c86274ce91146fc20": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.053119,
+          -118.440241
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "ff0a9aebb57c486583bf44dbc1560e7c": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "5bdd91c208b44e8a837a8fd4654a0cdf": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "56a3ffaf04ee4f61b75e583e399d8ef4": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_ff0a9aebb57c486583bf44dbc1560e7c",
+        "style": "IPY_MODEL_5bdd91c208b44e8a837a8fd4654a0cdf",
+        "value": "Name: Asuka<br>Address: 1553 Westwood Blvd, Los Angeles, CA, 90024<br>Phone: (424) 832-7284<br>Google rating: 4.8; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "88d8556279214217a4896e7e0b4c6470": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9919313,
+          -118.4224403
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_cd1cf4dd9b744a24a8f73ca53ec5c30b",
+        "popup_max_width": 425
+      }
+    },
+    "b0317e91f015444fb69a105a3cd552b3": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9919313,
+          -118.4224403
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "a1763eb624174a088d72200fabe75a69": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "1d67a0c630db4a8b9b38684cdc75e822": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "cd1cf4dd9b744a24a8f73ca53ec5c30b": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_a1763eb624174a088d72200fabe75a69",
+        "style": "IPY_MODEL_1d67a0c630db4a8b9b38684cdc75e822",
+        "value": "Name: Sakura<br>Address: 4545 S Centinela Ave, Los Angeles, CA, 90066<br>Phone: (310) 822-7790<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "72962e2244b14732b2ceac99ded9ca73": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0648768,
+          -118.383772
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_267bfa6da80044b4947bf1cc6660c7c8",
+        "popup_max_width": 425
+      }
+    },
+    "5a19ae4327ec42f4a34d6f9f466613c6": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0648768,
+          -118.383772
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "ece2104eadf94b42a57417628a1cb305": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "a2e5dcc7a2be4342890d05b600f5b70d": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "267bfa6da80044b4947bf1cc6660c7c8": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_ece2104eadf94b42a57417628a1cb305",
+        "style": "IPY_MODEL_a2e5dcc7a2be4342890d05b600f5b70d",
+        "value": "Name: Summer Fish & Rice<br>Address: 201 S Robertson Blvd, Beverly Hills, CA, 90211<br>Phone: (424) 279-9111<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $$$"
+      }
+    },
+    "471c63b9282b45e0b2a7ec0ced3983a8": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0482992,
+          -118.4433502
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_9a5ebf8d80544c4dba91f276fb45923a",
+        "popup_max_width": 425
+      }
+    },
+    "7886c66251ef4f488e38c0578d45ee66": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0482992,
+          -118.4433502
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "6bf897af09c74d9d9fb10a6ef885c85a": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "88c03f1863334e4eb9080247fe83db56": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "9a5ebf8d80544c4dba91f276fb45923a": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_6bf897af09c74d9d9fb10a6ef885c85a",
+        "style": "IPY_MODEL_88c03f1863334e4eb9080247fe83db56",
+        "value": "Name: Hamasaku<br>Address: 11043 CA-2, Los Angeles, CA, 90025<br>Phone: (310) 479-7636<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Yay!<br>Price level: $$$"
+      }
+    },
+    "2adf4e7ae89c4425b4960f009bacbb8e": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0613181,
+          -118.3061537
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_cf5d3d2b741646d2b78b4f1a403fe7e4",
+        "popup_max_width": 425
+      }
+    },
+    "74e1815200ce4d708ba21742c534f8df": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0613181,
+          -118.3061537
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "000ac072aecd4670bab41e8ae51ac709": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "8a0e8d3bad634f9582749d299c57d768": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "cf5d3d2b741646d2b78b4f1a403fe7e4": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_000ac072aecd4670bab41e8ae51ac709",
+        "style": "IPY_MODEL_8a0e8d3bad634f9582749d299c57d768",
+        "value": "Name: Geisha Japanese Restaurant<br>Address: 3680 Wilshire Blvd Suite 201, Los Angeles, CA, 90010<br>Phone: (213) 427-0288<br>Google rating: 4.4; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "03eca678d52e47ee88b4bd0a772c5732": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9861517,
+          -118.3931727
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_57e873d7403c4b13b22c03166e08654e",
+        "popup_max_width": 425
+      }
+    },
+    "3b574bcaebb74e63ac5419b6b94690a3": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9861517,
+          -118.3931727
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "22237b7d51404bc4bc3f17bd5fd925e4": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "667d1033395642409dd8afb9d59c6d01": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "57e873d7403c4b13b22c03166e08654e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_22237b7d51404bc4bc3f17bd5fd925e4",
+        "style": "IPY_MODEL_667d1033395642409dd8afb9d59c6d01",
+        "value": "Name: Azabu Sabo<br>Address: 6000 Sepulveda Blvd, Culver City, CA, 90230<br>Phone: (310) 391-8784<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "8d581c3e177d479ba0a745d274bb7df4": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0002896,
+          -118.4820915
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_4013b98a935d45ae8ade729a7906d9e0",
+        "popup_max_width": 425
+      }
+    },
+    "d0925fb468954073ac6c4762dd2ac6e0": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.0002896,
+          -118.4820915
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "11932df3fa0a49b28fe358f033dae30f": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e0cbf2d82a6243cf9cd021fe016d280f": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "4013b98a935d45ae8ade729a7906d9e0": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_11932df3fa0a49b28fe358f033dae30f",
+        "style": "IPY_MODEL_e0cbf2d82a6243cf9cd021fe016d280f",
+        "value": "Name: Sunny Blue<br>Address: 2728 Main St, Santa Monica, CA, 90405<br>Phone: (310) 399-9030<br>Google rating: 4.7; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "025ba6face194d6db7abd3ecd904e9be": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9245174,
+          -118.3956289
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_6f8e168398064e4eacbdabdc8b6d28df",
+        "popup_max_width": 425
+      }
+    },
+    "15d8937ebe34417ab030f4411b764254": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.9245174,
+          -118.3956289
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "b0a5fb488d92480f9d643dbcb2e9b202": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "5e5a29f566044751a21e9b7136ec50b2": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "6f8e168398064e4eacbdabdc8b6d28df": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_b0a5fb488d92480f9d643dbcb2e9b202",
+        "style": "IPY_MODEL_5e5a29f566044751a21e9b7136ec50b2",
+        "value": "Name: San Sai Japanese Grill<br>Address: 630 N Sepulveda Blvd #3b, El Segundo, CA, 90245<br>Phone: (310) 640-7665<br>Google rating: 4.3; Yelp rating: 3.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "487d91648291487a806d826438172094": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9024624,
+          -118.3947726
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_7d1de4e61b85499b82ebcc54a4edab6e",
+        "popup_max_width": 425
+      }
+    },
+    "7ecd3d9204884e56b5023617e7a18603": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9024624,
+          -118.3947726
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "253fe4e02c7e4bb3af7475a72d90de54": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "e66e26fa08c14da2a31203ac5420d920": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "7d1de4e61b85499b82ebcc54a4edab6e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_253fe4e02c7e4bb3af7475a72d90de54",
+        "style": "IPY_MODEL_e66e26fa08c14da2a31203ac5420d920",
+        "value": "Name: Umi by Hamasaku<br>Address: 860 S Sepulveda Blvd #116, El Segundo, CA, 90245<br>Phone: (310) 524-9980<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "05a54447c80f4dbeb7585fc1562286c0": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0401814,
+          -118.4427491
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_a8f86f670ca348f3b7acb5d086c6e4cc",
+        "popup_max_width": 425
+      }
+    },
+    "123a7a2f7c114bb7b827323a946129f7": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          34.0401814,
+          -118.4427491
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "f5fc542db09d4f6c910f40f82fd4e864": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "86084ba609e045118b01173e9a8ef796": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "a8f86f670ca348f3b7acb5d086c6e4cc": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_f5fc542db09d4f6c910f40f82fd4e864",
+        "style": "IPY_MODEL_86084ba609e045118b01173e9a8ef796",
+        "value": "Name: Hide Sushi<br>Address: 2040 Sawtelle Blvd, Los Angeles, CA, 90025<br>Phone: (310) 477-7242<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "bad13b05fd70450cad9905086572cd89": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0168726,
+          -118.4066743
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_948fa8c8384d4ca0959735c47deb9f4c",
+        "popup_max_width": 425
+      }
+    },
+    "97fd39b39c5d4bb7afbd0522bf676e01": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0168726,
+          -118.4066743
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "5e6643cd03a74330a1e3d123ac9ad836": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "06bf1b2ef67641cfaa0a72750e716f30": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "948fa8c8384d4ca0959735c47deb9f4c": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_5e6643cd03a74330a1e3d123ac9ad836",
+        "style": "IPY_MODEL_06bf1b2ef67641cfaa0a72750e716f30",
+        "value": "Name: Yokohama Sushi<br>Address: 3859 Overland Ave, Culver City, CA, 90232<br>Phone: (310) 202-7062<br>Google rating: 4.0; Yelp rating: 3.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "c17415fb9ee54e028e3f8e10245620b9": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.8899681,
+          -118.3089733
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_04c0b53c88544740b210dd793ccf9f2e",
+        "popup_max_width": 425
+      }
+    },
+    "76097c7ae63d4e878683308c71eccdbe": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.8899681,
+          -118.3089733
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "e73790bc358b4a3d83a92f460577e461": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "04625043f0ed44f2ba04fe855e071152": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "04c0b53c88544740b210dd793ccf9f2e": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_e73790bc358b4a3d83a92f460577e461",
+        "style": "IPY_MODEL_04625043f0ed44f2ba04fe855e071152",
+        "value": "Name: Tampopo Restaurant<br>Address: 15462 S Western Ave # 102, Gardena, CA, 90249<br>Phone: (310) 323-7882<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "011b5c17e1844fe38078e2873d187692": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0256573,
+          -118.3928833
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_84a8cd3ede254a6bb48a35d7a503d852",
+        "popup_max_width": 425
+      }
+    },
+    "6f47aa4bad9843e49ca9ad87b1fd23f8": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0256573,
+          -118.3928833
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "3d88707ea28e4741aa996e76ba0030a8": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "5cdda323f5be422caaf3a3da4874f3c3": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "84a8cd3ede254a6bb48a35d7a503d852": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_3d88707ea28e4741aa996e76ba0030a8",
+        "style": "IPY_MODEL_5cdda323f5be422caaf3a3da4874f3c3",
+        "value": "Name: K-ZO<br>Address: 9240 Culver Blvd, Culver City, CA, 90232<br>Phone: (310) 202-8890<br>Google rating: 4.4; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "8f825e10850d43cbb5186caa59dfcdda": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.044463,
+          -118.378795
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_e7ec684bdf6148d180da37e6e7702972",
+        "popup_max_width": 425
+      }
+    },
+    "98d7715f1d0c4e8598f0140cd1e3016e": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.044463,
+          -118.378795
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "8d561193906b460198428ad17cc1b5aa": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "f6640f2de00d46c194605d05fbe4ca33": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "e7ec684bdf6148d180da37e6e7702972": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_8d561193906b460198428ad17cc1b5aa",
+        "style": "IPY_MODEL_f6640f2de00d46c194605d05fbe4ca33",
+        "value": "Name: Bentomo<br>Address: 1831 S La Cienega Blvd, Los Angeles, CA, 90035<br>Phone: (310) 204-4027<br>Google rating: 4.2; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "bcd480382a6e42afa2e06433abb3471c": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0446461,
+          -118.4545479
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_ee743e84f0d047c1bbef196f2577336b",
+        "popup_max_width": 425
+      }
+    },
+    "336bd0f5adfb403cb4553d13c8851c79": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          34.0446461,
+          -118.4545479
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "572077f4c93f4b6f8fe93f58bf438f6e": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "9546ec9fa7cc475290057cd4050203cc": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "ee743e84f0d047c1bbef196f2577336b": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_572077f4c93f4b6f8fe93f58bf438f6e",
+        "style": "IPY_MODEL_9546ec9fa7cc475290057cd4050203cc",
+        "value": "Name: Izakaya Sasaya \u5c45\u9152\u5c4b \u697d\u697d\u5bb6<br>Address: 11613 Santa Monica Blvd, Los Angeles, CA, 90025<br>Phone: (310) 477-4404<br>Google rating: 4.3; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "70baa95ce466405bad13e5975626930a": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0683664,
+          -118.3766157
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_c493e001c22942b5ac61d667fbdcbe89",
+        "popup_max_width": 425
+      }
+    },
+    "1539fc38253949928af0dc075ef229ab": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0683664,
+          -118.3766157
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "6f5508bbf3ab49639f30ab666c27490c": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "a12baa8716e4479c8d33d3d0d08d9bb2": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "c493e001c22942b5ac61d667fbdcbe89": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_6f5508bbf3ab49639f30ab666c27490c",
+        "style": "IPY_MODEL_a12baa8716e4479c8d33d3d0d08d9bb2",
+        "value": "Name: Matsuhisa<br>Address: 129 N La Cienega Blvd, Beverly Hills, CA, 90211<br>Phone: (310) 659-9639<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$$"
+      }
+    },
+    "6ded8e709f764f59bdfa3ec14a464e72": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9597165,
+          -118.3789966
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_f171ff2a5dbd4a3f9b7854cc986b2bbf",
+        "popup_max_width": 425
+      }
+    },
+    "d170a55a11b341a88490546c478fdc5a": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "red",
+        "location": [
+          33.9597165,
+          -118.3789966
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "802ba20807a940b4a794e93c49928e43": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "ea332f0a3cb444e198eacf1205d5cfa8": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "f171ff2a5dbd4a3f9b7854cc986b2bbf": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_802ba20807a940b4a794e93c49928e43",
+        "style": "IPY_MODEL_ea332f0a3cb444e198eacf1205d5cfa8",
+        "value": "Name: Miyako Express<br>Address: 5600 W Manchester Ave, Los Angeles, CA, 90045<br>Phone: (310) 649-2778<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $"
+      }
+    },
+    "08c2e21ea8634357abcf6331897055d0": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.069046,
+          -118.4069186
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_fe71d98df84c4acbbf58e6de53ed9f98",
+        "popup_max_width": 425
+      }
+    },
+    "038f8a09a8054d5184fd6739b22b43bc": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          34.069046,
+          -118.4069186
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "ed79e6dea89d4d8288baacb27fc6caf4": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "0b4361c412ab45e5b75d463822c68d67": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "fe71d98df84c4acbbf58e6de53ed9f98": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_ed79e6dea89d4d8288baacb27fc6caf4",
+        "style": "IPY_MODEL_0b4361c412ab45e5b75d463822c68d67",
+        "value": "Name: Yazawa Japanese BBQ<br>Address: 9669 S Santa Monica Blvd, Beverly Hills, CA, 90210<br>Phone: (310) 275-2914<br>Google rating: 4.6; Yelp rating: 4.5<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $$$$"
+      }
+    },
+    "27e8227103d44e6abec27d97f8cb9d25": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.885612,
+          -118.3167206
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_0019c1a2370149e3bcef0f3979676dce",
+        "popup_max_width": 425
+      }
+    },
+    "7c789be585664cb5b8a9b606cc79170f": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "orange",
+        "location": [
+          33.885612,
+          -118.3167206
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "7586b76373914fa7a60cea5c04899947": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "0df0a4690c304df696ba0c6bc0768c86": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "0019c1a2370149e3bcef0f3979676dce": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_7586b76373914fa7a60cea5c04899947",
+        "style": "IPY_MODEL_0df0a4690c304df696ba0c6bc0768c86",
+        "value": "Name: Maruhide Uni Club<br>Address: 2130 Redondo Beach Blvd, Torrance, CA, 90504<br>Phone: (310) 323-2864<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Yay!<br>Price level: $$$$"
+      }
+    },
+    "9c6950a453a549b099feaa5e6cfce63c": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.038733,
+          -118.441923
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_8bb665970292426490b904b56396a1c5",
+        "popup_max_width": 425
+      }
+    },
+    "372555e41b1c4c0c85ad265fb4aaa642": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.038733,
+          -118.441923
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "cdc6eb51622349fe8c1f2e2ca7e104c9": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "45df8d727eb044a294569c3d00cc3a4c": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "8bb665970292426490b904b56396a1c5": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_cdc6eb51622349fe8c1f2e2ca7e104c9",
+        "style": "IPY_MODEL_45df8d727eb044a294569c3d00cc3a4c",
+        "value": "Name: Kiriko<br>Address: 11301 W Olympic Blvd #102, Los Angeles, CA, 90064<br>Phone: (310) 478-7769<br>Google rating: 4.4; Yelp rating: 3.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "55c60edbea834943bfa1e444aa18f489": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0021729,
+          -118.3925472
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_907f45e88dcf465ea54f3543cc051a13",
+        "popup_max_width": 425
+      }
+    },
+    "6ee7715d8e054806b7fd0fe7f310c49e": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          34.0021729,
+          -118.3925472
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "a30e1e21105249cb8df67f6b09d8e1a0": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "49aada39ce0b4643a941edd0a8b66e8e": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "907f45e88dcf465ea54f3543cc051a13": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_a30e1e21105249cb8df67f6b09d8e1a0",
+        "style": "IPY_MODEL_49aada39ce0b4643a941edd0a8b66e8e",
+        "value": "Name: Sushi Mashiko<br>Address: 10726 Jefferson Blvd, Culver City, CA, 90230<br>Phone: (310) 280-0198<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "e8e0fa3b923f441aa91645e313d76da0": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.068363,
+          -118.4000698
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_f006b9f8272948ee90d1ff46e3443d01",
+        "popup_max_width": 425
+      }
+    },
+    "49dbc5db82804a91bff6c311bd3cb73e": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.068363,
+          -118.4000698
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "d164072f264b4496abe59905e155d0fe": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "6310c9b714ad4932b886c00760e5b78b": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "f006b9f8272948ee90d1ff46e3443d01": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_d164072f264b4496abe59905e155d0fe",
+        "style": "IPY_MODEL_6310c9b714ad4932b886c00760e5b78b",
+        "value": "Name: Yojisan Sushi<br>Address: 260 N Beverly Dr, Beverly Hills, CA, 90210<br>Phone: (424) 245-3799<br>Google rating: 4.3; Yelp rating: 4.0<br>Google says: Meh.<br>Yelp says: Meh.<br>Price level: $$$"
+      }
+    },
+    "47999a02248b48ceb5de2d73ad2fb9f2": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          34.0303236,
+          -118.4477887
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_3550fe9ec0c8474e88e8b11549f870e7",
+        "popup_max_width": 425
+      }
+    },
+    "e9a014be41e649a6b55888e7d76939a4": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "yellow",
+        "location": [
+          34.0303236,
+          -118.4477887
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "51db02591e6644b5a604cbb449a0277f": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "29da2b1e769b467fa9ae60a9ed8346e5": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "3550fe9ec0c8474e88e8b11549f870e7": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_51db02591e6644b5a604cbb449a0277f",
+        "style": "IPY_MODEL_29da2b1e769b467fa9ae60a9ed8346e5",
+        "value": "Name: Yabu<br>Address: 11820 W Pico Blvd, Los Angeles, CA, 90064<br>Phone: (310) 473-9757<br>Google rating: 4.5; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "62e3d8d82de74d2eb554c9fa94c34433": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.8853333,
+          -118.4100248
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_14317534177e4cba8d28022cf1303e5f",
+        "popup_max_width": 425
+      }
+    },
+    "4a06a451642240a7bb117c1fb9973d5a": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.8853333,
+          -118.4100248
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "451a9ad5517a4ccb9bb170b021d974a7": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "8f2292e006974f5694fd91ed6052f83b": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "14317534177e4cba8d28022cf1303e5f": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_451a9ad5517a4ccb9bb170b021d974a7",
+        "style": "IPY_MODEL_8f2292e006974f5694fd91ed6052f83b",
+        "value": "Name: The IZAKA-YA by KATSU-YA Manhattan Beach<br>Address: 1133 Highland Ave, Manhattan Beach, CA, 90266<br>Phone: (310) 796-1888<br>Google rating: 4.6; Yelp rating: 4.0<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "e5f6eb2de8c2477180a4fddd86378661": {
+      "model_name": "LeafletMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "location": [
+          33.9211532,
+          -118.416108
+        ],
+        "options": [
+          "alt",
+          "draggable",
+          "keyboard",
+          "rise_offset",
+          "rise_on_hover",
+          "rotation_angle",
+          "rotation_origin",
+          "title",
+          "z_index_offset"
+        ],
+        "popup": "IPY_MODEL_412e1090029d41768da9e07146f6daaf",
+        "popup_max_width": 425
+      }
+    },
+    "ed0f565f52bf4df6a1628650a926ecd8": {
+      "model_name": "LeafletCircleMarkerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "color": "green",
+        "location": [
+          33.9211532,
+          -118.416108
+        ],
+        "options": [
+          "class_name",
+          "color",
+          "dash_array",
+          "fill",
+          "fill_color",
+          "fill_opacity",
+          "line_cap",
+          "line_join",
+          "opacity",
+          "pointer_events",
+          "radius",
+          "stroke",
+          "weight"
+        ],
+        "radius": 5
+      }
+    },
+    "22580fd894264b17843f561d82205973": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {}
+    },
+    "149b5dee7be646c1bbe39ef4f601ba67": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "412e1090029d41768da9e07146f6daaf": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_22580fd894264b17843f561d82205973",
+        "style": "IPY_MODEL_149b5dee7be646c1bbe39ef4f601ba67",
+        "value": "Name: Hana Haru Restaurant<br>Address: 409 Main St, El Segundo, CA, 90245<br>Phone: (310) 640-2352<br>Google rating: 4.4; Yelp rating: 3.5<br>Google says: Yay!<br>Yelp says: Meh.<br>Price level: $$"
+      }
+    },
+    "9ad64a992ca34158b31d1ce40c42bfb1": {
+      "model_name": "LeafletLayersControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.11.1",
+      "state": {
+        "options": [
+          "position"
+        ]
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "5f502e1211f34a7ca6805e2da42d81a8"}
+</script>
+
+</body>
+</html>
